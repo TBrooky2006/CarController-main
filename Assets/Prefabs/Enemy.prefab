@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: 1729769669632520655}
   - component: {fileID: 5409612776301168298}
   - component: {fileID: 425610418331816534}
+  - component: {fileID: 9128321454601926031}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -105,6 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f42011267ae96438509d00e4c73419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 5
   currentHp: 0
   maxHp: 15
 --- !u!65 &425610418331816534
@@ -128,6 +130,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 2.44}
   m_Center: {x: 0, y: 0.61, z: 0}
+--- !u!114 &9128321454601926031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718357933119612592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b193437a5317143a26046c832d096d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 5
+  enemy: {fileID: 1718357933119612592}
+  spawnpoints: []
 --- !u!1 &2858798230858808589
 GameObject:
   m_ObjectHideFlags: 0
