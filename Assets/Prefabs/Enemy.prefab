@@ -108,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 5
   currentHp: 0
-  maxHp: 15
+  maxHp: 20
 --- !u!65 &425610418331816534
 BoxCollider:
   m_ObjectHideFlags: 0

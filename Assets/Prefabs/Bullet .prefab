@@ -34135,5 +34135,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64ce30dacd5152d49949b156050bfd68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
-  bulletSpeed: 3
+  damage: 10
+  bulletSpeed: 8
