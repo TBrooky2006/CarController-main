@@ -5,7 +5,6 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public int damage;
-
     public int currentHp;
     public int maxHp;
     GameObject target;
