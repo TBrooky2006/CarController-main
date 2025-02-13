@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Prefabs/Scenes/main menu.unity
+    guid: 6f4b9faf6448cef4b93d5be5d2ae60b7
+  - enabled: 1
     path: Assets/Prefabs/Scenes/Playground.unity
     guid: ac1228c7ec879c54e8832a1de68af8f9
-  - enabled: 0
-    path: Assets/Prefabs/Scenes/Track.unity
-    guid: d2a9db2f2a41383409430dd2c5e32afe
   m_configObjects: {}
